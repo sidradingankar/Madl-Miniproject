@@ -1,0 +1,36 @@
+name: emergency_assistance
+description: Emergency Assistance - SOS Alert App with GPS Location Sharing
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icons
+  cupertino_icons: ^1.0.6
+
+  # Local Storage
+  shared_preferences: ^2.2.2
+
+  # Location / GPS
+  geolocator: ^11.0.0
+
+  # URL / SMS
+  url_launcher: ^6.2.5
+
+  # Date formatting
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
